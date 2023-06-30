@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="Header">
+      <div class="Container">
+        <nav>
+          <!--<img src="images/logo.png" class="logo">-->
+          <ul id="Side_menu">
+            <li><a href="#Header">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#About">About</a></li>
+            <!--<li><a href="#portfolio">Portfolio</a></li>-->
+            <li><a href="#Contact">Contacts</a></li>
+            <i class="fa-solid fa-xmark" onclick="Close_menu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="Open_menu()"></i>
+        </nav>
+        <div class="Header_Text">
+          <p>&lt;Coder&gt; & &lt;Developer&gt;</p>
+          <h1>Hi, I'm <span>Aditya Kant</span><br /> From India</h1>
+        </div>
+      </div>
+    </div>
+    <!------------------about------------------------->
+    <div id="About">
+      <div class="Container">
+        <div class="Row">
+          <div class="About_col_1">
+
+
+
+
+            <img src="images/portfolio2.png" />
+
+
+
+
+          </div>
+          <div class="About_col_2">
+            <h1 class="Sub_title">About Me</h1>
+            <p>
+              Hey! I'm Aditya Kant, an independent creative web developer and
+              coder from Heritage Institute of Technology,Kolkata. Still
+              learning and upgrading myself.
+            </p>
+
+            <div class="Tab_titles">
+              <p class="Tab_links" onclick="Open_tab('Education')">Education</p>
+              <p class="Tab_links Active_link" onclick="Open_tab('Skills')">
+                Skills
+              </p>
+              <p class="Tab_links" onclick="Open_tab('Experience')">
+                Experience
+              </p>
+              <p class="Tab_links" onclick="Open_tab('Projects')">
+                Project work
+              </p>
+            </div>
+            <div class="Tab_contents" id="Education">
+              <ul>
+                <li>
+                  <span>2017</span><br />Christ Church Diocesan School,
+                  Patna<span>Secondary School</span> 10 CGPA
+                </li>
+                <li>
+                  <span>2019</span><br />Park Mount Public School, Patna<span
+                    >Higher Secondary</span
+                  >
+                  89%
+                </li>
+                <li>
+                  <span>2020-2024</span><br />Heritage Institute of
+                  Technology,Kolkata<span
+                    >B.Tech in Computer Science and Engineering</span
+                  >
+                  8.4 CGPA
+                </li>
+                <li></li>
+              </ul>
+            </div>
+            <div class="Tab_contents Active_tab" id="Skills">
+              <ul>
+                <li>
+                  <span>Machine Learning</span><br />Algorithms to imitate the
+                  way that human learns.
+                </li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>Programming</span><br />C++,Java,Python Programming
+                </li>
+              </ul>
+            </div>
+            <div class="Tab_contents" id="Experience">
+              <ul>
+                <li><span>2020 - Present</span>
+                    <strong>Rotaract</strong>
+                    Volunteering Experience<br>
+                    Being a member of rotaract club I have conducted and volunteered many social activities at different
+                    places
+                </li>
+                <li><span>18-10-2021 - Present
+                </span>
+                    <strong>Chegg</strong>
+                    <br>
+                    Subject Matter Expert
+                </li>
+                <li>
+                  <span>25-09-2021 - 25-10-2021</span>Google Cloud Skill Boost<br/>
+                  30 days of google cloud
+                  
+                </li>
+                <li>
+                  <span>1-02-2022 - 12-02-2022
+                </span>Google Cloud Skill Boost<br/>
+                Learn to Earn Cloud Security challenge
+                </li>
+              </ul>
+            </div>
+            <div class="Tab_contents" id="Projects">
+              <ul>
+                
+                <li><span>2023</span><br />Landing Page using HTML and CSS.</li>
+                <li><span>2023</span><br />Personal Portfolio website.</li>
+                <li><span>2023</span><br />Temperature Converter website.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------services------------------------>
+    <div id="Services">
+      <div class="Container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Web development, also known as website development, refers to the
+              tasks associated with creating, building, and maintaining websites
+              and web applications that run online on a browser. it's the work
+              that happens behind the scenes to make a website look great, work
+              fast and perform well with a seamless user experience.
+            </p>
+            <!--<a href="#">Learn more</a>-->
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Machine Learning</h2>
+            <p>
+              Machine learning is a branch of artificial intelligence (AI) and
+              computer science which focuses on the use of data and algorithms
+              to imitate the way that humans learn, gradually improving its
+              accuracy. It enables computers to learn automatically from past
+              data. It is broadly defined as the capability of a machine to
+              imitate intelligent human behavior.
+            </p>
+            <!--<a href="#">Learn more</a>-->
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Programming</h2>
+            <p>
+              A programming language is a computer language that is used by
+              programmers (developers) to communicate with computers. It is a
+              set of instructions written in any specific language ( C, C++,
+              Java, Python) to perform a specific task. A programming language
+              is mainly used to develop desktop applications, websites, and
+              mobile applications.
+            </p>
+            <!--<a href="#">Learn more</a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!---------------------contact-------------------------->
+    <div id="Contact">
+      <div class="Container">
+        <div class="Row">
+          <div class="Contact_left">
+            <h1 class="Sub_title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i
+              >aditya.kant.cse24@heritageit.edu.in
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>+91 8340239181</p>
+            <div class="social-icons">
+                <a
+                href="https://twitter.com/143adityakant"
+                target="_blank"><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://instagram.com/the_cavort_guy"target="_blank"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/adityakant143/"target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/My_resume.pdf" target="_blank" download class="btn btn2">Download Resume</a>
+      
+      </div>
+      
+    </div>
+    <script>
+      var sidemenu = document.getElementById("Side_menu");
+      function Open_menu() {
+        sidemenu.style.right = "0";
+      }
+      function Close_menu() {
+        sidemenu.style.right = "-190px";
+      }
+    </script>
+   
+
+    <script>
+      var tablinks = document.getElementsByClassName("Tab_links");
+      var tabcontents = document.getElementsByClassName("Tab_contents");
+
+      function Open_tab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("Active_link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("Active_tab");
+        }
+        event.currentTarget.classList.add("Active_link");
+        document.getElementById(tabname).classList.add("Active_tab");
+      }
+    </script>
+  </body>
+</html>
